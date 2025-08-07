@@ -27,7 +27,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--Grey100);
+  background-color: var(--White);
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
@@ -67,12 +67,13 @@ main{
 }
 .child1_top_text{
   color: var(--Grey100);
-  font-size:25px;
+  font-size:20px;
   padding-bottom: 15px;
 }
 .child1_buttom_text{
   color: var(--Grey200);
   font-size: 13px;
+  line-height: 1.5;
 }
 .profie img{
   height: 30px;
@@ -81,7 +82,7 @@ main{
   border: 2px solid var(--Purple300);
 }
 .child-2{
-  background-color: var(--Grey400);
+  background-color: var(--Grey500);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.2);
@@ -98,12 +99,13 @@ main{
 }
 .child2_top_text{
   color: var(--Grey100);
-  font-size:25px;
+  font-size:20px;
   padding-bottom: 15px;
 }
 .child2_buttom_text{
   color: var(--Grey200);
   font-size: 13px;
+  line-height: 1.5;
 }
 .child-3{
   background-color: var(--White);
@@ -122,12 +124,13 @@ main{
 }
 .child3_top_text{
   color: var(--Grey500);
-  font-size:25px;
+  font-size:20px;
   padding-bottom: 15px;
 }
 .child3_buttom_text{
   color: var(--Grey400);
   font-size: 13px;
+  line-height: 1.5;
 }
 .child-4{
   grid-column:2/4;
@@ -154,6 +157,7 @@ main{
 .child4_buttom_text{
   color: var(--Grey100);
   font-size: 13px;
+  line-height: 1.5;
 }
 .child-5{
   grid-area:1/4/3/4;
@@ -174,7 +178,7 @@ main{
 }
 .child5_top_text{
   color: var(--Grey500);
-  font-size:25px;
+  font-size:20px;
   padding-bottom: 15px;
 }
 .child5_buttom_text{
@@ -228,7 +232,5 @@ main{
    .child-5{
     grid-area: 5/1/6/2;
   }
-  .child1_top_text, .child2_top_text,.child3_top_text, .child4_top_text, .child5_top_text{
-    font-size: 20px;
-  }
+
 }
