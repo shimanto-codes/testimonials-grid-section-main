@@ -1,2 +1,2 @@
-![Screenshot](Desktop_desing_output.png)
-![Screenshot](Mobile_design_output.png)
+![Screenshot](imades/Desktop_desing_output.png)
+![Screenshot](images/Mobile_design_output.png)
